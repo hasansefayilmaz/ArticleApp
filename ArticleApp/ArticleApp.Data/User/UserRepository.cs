@@ -8,7 +8,7 @@ namespace ArticleApp.Data.User
    public class ArticleRepository : Repository<Article, ArticleDbContext>, IArticleRepository
     {
         public ArticleRepository(ArticleDbContext userDbContext) : base(userDbContext)
-        {
+        { 
         }
     }
 }

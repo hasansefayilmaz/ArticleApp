@@ -6,6 +6,6 @@ using System.Text;
 namespace ArticleApp.Data.User
 {
     public interface IArticleRepository : IRepository<Article>
-    {
+    {  
     }
 }

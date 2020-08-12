@@ -11,6 +11,6 @@ namespace ArticleApp.Data.User
         public string Email { get; set; }
         public int CreatedBy { get; set; }
         public int? LastUpdateBy { get; set; }
-        public DateTime? LastUpdateDate { get; set; }
+        public DateTime? LastUpdateDate { get; set; } 
     }
 }
