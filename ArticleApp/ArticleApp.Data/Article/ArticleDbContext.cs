@@ -11,7 +11,7 @@ namespace ArticleApp.Data.Article
         public DbSet<Article> Users { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            base.OnModelCreating(builder);
+            base.OnModelCreating(builder); 
         }
     }
 }

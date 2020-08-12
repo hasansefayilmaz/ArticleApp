@@ -4,7 +4,7 @@ using System;
 namespace ArticleApp.Data.Article
 {
     public class Article : Entity
-    {
+    { 
         public string Username { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
