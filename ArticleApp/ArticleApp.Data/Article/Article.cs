@@ -9,8 +9,8 @@ namespace ArticleApp.Data.Article
         public string Content { get; set; }
         public string Image { get; set; }
         public string Tags { get; set; }
-        public string CreatedBy { get; set; }
-        public string LastUpdateBy { get; set; }
-        public string LastUpdateDate { get; set; }
+        public int CreatedBy { get; set; }
+        public int LastUpdateBy { get; set; }
+        public DateTime? LastUpdateDate { get; set; }
     }
 }
