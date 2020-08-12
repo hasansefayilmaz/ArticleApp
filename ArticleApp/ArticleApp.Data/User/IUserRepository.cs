@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ArticleApp.Data.User
 {
-    public interface IArticleRepository : IRepository<Article>
+    public interface IUserRepository : IRepository<User>
     {  
     }
 }

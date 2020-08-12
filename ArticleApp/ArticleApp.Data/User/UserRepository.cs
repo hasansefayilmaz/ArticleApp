@@ -5,9 +5,9 @@ using System.Text;
 
 namespace ArticleApp.Data.User
 {
-   public class ArticleRepository : Repository<Article, ArticleDbContext>, IArticleRepository
+   public class UserRepository : Repository<User, UserDbContext>, IUserRepository
     {
-        public ArticleRepository(ArticleDbContext userDbContext) : base(userDbContext)
+        public UserRepository(UserDbContext userDbContext) : base(userDbContext)
         { 
         }
     }

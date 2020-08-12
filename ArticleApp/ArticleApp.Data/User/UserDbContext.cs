@@ -2,13 +2,13 @@
 
 namespace ArticleApp.Data.User
 {
-    public class ArticleDbContext : DbContext
+    public class UserDbContext : DbContext
     {
-        public ArticleDbContext(DbContextOptions<ArticleDbContext> options)
+        public UserDbContext(DbContextOptions<UserDbContext> options)
             : base(options)
         {
         }
-        public DbSet<Article> Users { get; set; }
+        public DbSet<User> Users { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);  

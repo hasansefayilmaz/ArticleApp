@@ -3,7 +3,7 @@ using System;
 
 namespace ArticleApp.Data.User
 {
-    public class Article : Entity
+    public class User : Entity
     {
         public string Username { get; set; }
         public string Name { get; set; }
