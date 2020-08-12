@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace ArticleApp.Data.User
+namespace ArticleApp.Data.Article
 {
     public class ArticleDbContext : DbContext
     {

@@ -1,7 +1,7 @@
 ﻿using ArticleApp.Data.Base;
 using System;
 
-namespace ArticleApp.Data.User
+namespace ArticleApp.Data.Article
 {
     public class Article : Entity
     {

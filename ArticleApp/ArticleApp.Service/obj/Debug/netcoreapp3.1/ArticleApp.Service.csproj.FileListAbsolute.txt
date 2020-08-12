@@ -1,9 +1,0 @@
-C:\Users\Galaksity\source\repos\ArticleApp\ArticleApp\ArticleApp.Service\bin\Debug\netcoreapp3.1\ArticleApp.Service.deps.json
-C:\Users\Galaksity\source\repos\ArticleApp\ArticleApp\ArticleApp.Service\bin\Debug\netcoreapp3.1\ArticleApp.Service.dll
-C:\Users\Galaksity\source\repos\ArticleApp\ArticleApp\ArticleApp.Service\bin\Debug\netcoreapp3.1\ArticleApp.Service.pdb
-C:\Users\Galaksity\source\repos\ArticleApp\ArticleApp\ArticleApp.Service\obj\Debug\netcoreapp3.1\ArticleApp.Service.csprojAssemblyReference.cache
-C:\Users\Galaksity\source\repos\ArticleApp\ArticleApp\ArticleApp.Service\obj\Debug\netcoreapp3.1\ArticleApp.Service.AssemblyInfoInputs.cache
-C:\Users\Galaksity\source\repos\ArticleApp\ArticleApp\ArticleApp.Service\obj\Debug\netcoreapp3.1\ArticleApp.Service.AssemblyInfo.cs
-C:\Users\Galaksity\source\repos\ArticleApp\ArticleApp\ArticleApp.Service\obj\Debug\netcoreapp3.1\ArticleApp.Service.csproj.CoreCompileInputs.cache
-C:\Users\Galaksity\source\repos\ArticleApp\ArticleApp\ArticleApp.Service\obj\Debug\netcoreapp3.1\ArticleApp.Service.dll
-C:\Users\Galaksity\source\repos\ArticleApp\ArticleApp\ArticleApp.Service\obj\Debug\netcoreapp3.1\ArticleApp.Service.pdb
