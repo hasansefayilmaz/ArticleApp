@@ -1,6 +1,5 @@
 C:\Users\Galaksity\source\repos\ArticleApp\ArticleApp\ArticleApp.Data\bin\Debug\netcoreapp3.1\ArticleApp.Data.deps.json
 C:\Users\Galaksity\source\repos\ArticleApp\ArticleApp\ArticleApp.Data\bin\Debug\netcoreapp3.1\ArticleApp.Data.dll
-C:\Users\Galaksity\source\repos\ArticleApp\ArticleApp\ArticleApp.Data\obj\Debug\netcoreapp3.1\ArticleApp.Data.csprojAssemblyReference.cache
 C:\Users\Galaksity\source\repos\ArticleApp\ArticleApp\ArticleApp.Data\obj\Debug\netcoreapp3.1\ArticleApp.Data.AssemblyInfoInputs.cache
 C:\Users\Galaksity\source\repos\ArticleApp\ArticleApp\ArticleApp.Data\obj\Debug\netcoreapp3.1\ArticleApp.Data.AssemblyInfo.cs
 C:\Users\Galaksity\source\repos\ArticleApp\ArticleApp\ArticleApp.Data\bin\Debug\netcoreapp3.1\ArticleApp.Data.pdb
