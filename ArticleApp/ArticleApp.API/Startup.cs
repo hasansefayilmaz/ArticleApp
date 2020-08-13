@@ -1,3 +1,5 @@
+using ArticleApp.Data.Article;
+using ArticleApp.Data.Comment;
 using ArticleApp.Data.User;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -20,9 +22,11 @@ namespace ArticleApp.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ArticleDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllers();
+            services.AddDbContext<ArticleDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<IArticleRepository, ArticleRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ICommentRepository, CommentRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
