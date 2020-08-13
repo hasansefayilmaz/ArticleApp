@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ArticleApp.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class ArticleController : ControllerBase
     {
@@ -32,6 +32,18 @@ namespace ArticleApp.API.Controllers
             }
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Detail(ArticleDto articleDto)
+        {
+            try
+            {
+                return Ok(await _articleService.GetById(articleDto.Id));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
         [HttpPost]
         public async Task<IActionResult> Create(ArticleDto articleDto)
         {

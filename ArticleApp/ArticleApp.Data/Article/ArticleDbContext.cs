@@ -8,7 +8,7 @@ namespace ArticleApp.Data.Article
             : base(options)
         {
         }
-        public DbSet<Article> Users { get; set; }
+        public DbSet<Article> Articles { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder); 
