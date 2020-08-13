@@ -1,2 +1,2 @@
 # ArticleApp
-Article entry, edit, list and delete application
+Article API
